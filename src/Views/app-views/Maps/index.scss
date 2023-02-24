@@ -1,0 +1,19 @@
+.maps {
+  @apply text-white mt-40  flex items-center justify-center mb-10;
+
+  .map-card {
+    @apply sm:grid-rows-5 md:grid-rows-4 lg:grid-rows-4 xl:grid-rows-3  grid grid-rows-3 grid-flow-col gap-1;
+
+    .map {
+      @apply bg-[#FF4655] rounded-2xl  transition ease-in-out delay-150 mr-2   hover:-translate-y-1 hover:scale-125 hover:bg-indigo-600 duration-200;
+
+      .names {
+        @apply sm:text-xl lg:text-2xl  2xl:text-3xl flex flex-row justify-center mt-4 text-white;
+      }
+
+      .icons {
+        @apply sm:w-[200px] 2xl:w-[370px] lg:w-[300px];
+      }
+    }
+  }
+}

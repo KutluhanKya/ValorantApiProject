@@ -1,0 +1,7 @@
+.home {
+  @apply flex  justify-center items-center;
+
+  .logo {
+    @apply mt-60 sm:w-[400px] md:w-[500px]  lg:w-[600px]   xl:w-[700px];
+  }
+}

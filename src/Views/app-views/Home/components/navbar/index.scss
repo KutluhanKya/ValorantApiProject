@@ -1,0 +1,15 @@
+.navbar {
+  @apply text-white sm:text-2xl lg:text-3xl 2xl:text-3xl bg-[#FF4655] top-0 w-full h-28 flex justify-center items-center text-center absolute flex-row;
+
+  .page {
+    @apply flex flex-row;
+
+    .pages {
+      @apply m-5 transition ease-in-out delay-100   hover:-translate-y-1 hover:scale-125;
+
+      .active {
+        @apply text-black border-b-4 border-black;
+      }
+    }
+  }
+}

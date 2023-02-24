@@ -1,0 +1,54 @@
+.bg {
+  @apply bg-white ml-24 mr-24 rounded-lg;
+
+  .agent {
+    @apply mt-40  flex flex-row justify-center items-center bg-[#FF4655]  rounded-lg m-14;
+    .name {
+      @apply text-4xl  justify-center  text-white;
+    }
+
+    .agent-card {
+      @apply flex flex-col;
+
+      .name {
+        @apply sm:text-2xl lg:text-3xl xl:text-4xl mt-9 mb-1 text-white uppercase;
+      }
+
+      .titles {
+        @apply flex flex-row justify-center items-center;
+
+        .namee {
+          @apply text-4xl mt-2 mb-2 text-white;
+        }
+      }
+
+      .images {
+        @apply flex justify-center items-center;
+
+        .img {
+          @apply xl:w-[800px] sm:w-[650px];
+        }
+      }
+
+      .ab {
+        @apply flex flex-row m-20 sm:space-x-5  xl:space-x-7 justify-center items-center text-center;
+
+        .skills {
+          @apply flex flex-col justify-center items-center text-center;
+        }
+
+        .names {
+          @apply text-white sm:text-2xl  text-3xl;
+        }
+
+        .imgsk {
+          @apply sm:w-14 xl:w-28 m-10;
+        }
+
+        .des {
+          @apply sm:text-sm xl:text-xl text-white;
+        }
+      }
+    }
+  }
+}

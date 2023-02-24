@@ -1,0 +1,18 @@
+.maps-1 {
+  @apply text-white  bg-[#FF4655]  justify-center items-center text-center m-36 rounded-lg;
+
+  .names {
+    @apply text-4xl md:text-3xl justify-center mt-4 mb-4 text-white;
+  }
+
+  .map-card {
+    @apply mt-6;
+    .map1 {
+      @apply flex flex-row justify-center;
+
+      .img2 {
+        @apply lg:w-[550px] xl:w-[600px] w-[700px] transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-150  duration-300;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.weapon {
+  @apply text-white sm:text-base lg:text-2xl text-3xl m-40 bg-[#FF4655] rounded-lg flex flex-col justify-center items-center;
+
+  .names {
+    @apply mb-5;
+  }
+
+  .img {
+    @apply w-[600px] sm:w-[200px] lg:w-[500px];
+  }
+
+  .cost {
+    @apply mt-4;
+  }
+
+  .title {
+    @apply mt-40 mb-10;
+  }
+
+  .skins {
+    @apply mt-5 sm:grid-rows-6 grid grid-rows-1 grid-cols-4 gap-4;
+
+    .skinss {
+      @apply transition ease-in-out delay-150  rounded-2xl  hover:-translate-y-1 hover:scale-150 hover:bg-indigo-600 duration-300 m-5;
+
+      .imgsk {
+        @apply w-96;
+      }
+    }
+  }
+}
